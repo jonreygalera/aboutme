@@ -1,22 +1,20 @@
-## 📅 2021 — Co-Lead Developer
+# 2021: Scaling Up
 
-**Project:** Loop Moderation v2
+## Loop Moderation v2
 
-In 2021, I worked as **co-lead developer** on **Loop Moderation v2**, an upgraded moderation system aimed at improving **content mapping, request handling, and overall workflow efficiency**. The project focused on making moderation faster, more reliable, and easier to manage across multiple content types.  
+**Role:** Co-Lead Developer  
+**Tech Stack:** Laravel, Node.js, Socket.io, React.js
 
-**What I Did:**
-- Assisted in developing **content mapping features** to better categorize items for moderation  
-- Implemented a **queueing system** for incoming requests, ensuring requests were handled efficiently and in order  
-- Introduced **API retry policies** for 3rd-party integrations to guarantee reliable data handling  
-- Collaborated closely with the team on system design and feature prioritization, applying best practices from both backend and frontend development  
+### The Context
 
-**Tech Stack:** 
-- Laravel/PHP  
-- MySQL  
-- Node.js  
-- Express.js  
-- React.js  
-- Socket.io  
+Version 1 worked. Version 2 had to **fly**.
+We weren't just moderating text anymore; we were handling a massive influx of requests.
 
-**Key Takeaway:**  
-> Working on Loop Moderation v2 taught me how to handle large-scale moderation workflows, design reliable request systems, and implement safeguards like retry policies to make integrations robust. Being co-lead also helped me improve my **technical leadership and decision-making skills**.
+### The Architecture
+
+We introduced:
+
+1.  **Queues:** To handle bursts of traffic without crashing.
+2.  **Retry Policies:** because third-party APIs _will_ fail, and our system needs to be resilient enough to try again.
+
+This project was a masterclass in **system design**. We moved from "making it work" to "making it unbreakable."

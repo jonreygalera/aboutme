@@ -1,22 +1,17 @@
-## 📅 2020 — Main Developer
+# 2020: The Silent Guardian
 
-**Project:** IMv3 Watcher
+## IMv3 Watcher
 
-As the **main developer**, I built a backend **watcher system** for the **IMv3 messaging app** to monitor and track conversation status. This system ensures that messages are processed reliably and statuses are updated in real-time across all workflows.
+**Role:** Main Developer  
+**Tech Stack:** Node.js, Express.js
 
-**What I Did:**
+### The Problem
 
-- Developed the core backend watcher using **Node.js** and **Express.js**
-- Implemented a bridge to handle conversation statuses accurately
-- Built monitoring and logging for real-time updates
-- Maintained and enhanced the system to ensure consistent message processing
-- Ensured reliability and performance across IMv3 messaging workflows
+Messages were getting "stuck." In a complex distributed system, sometimes a message would be sent but not delivered, or delivered but not acknowledged. We had "ghost" conversations.
 
-**Tech Stack:**
+### The Watcher
 
-- Node.js
-- Express.js
-
-**Key Takeaway:**
-
-> Working on the IMv3 watcher taught me the importance of building robust backend systems, monitoring real-time workflows, and maintaining reliability in messaging applications.
+I built a backend service whose only job was to **watch**.
+It monitored conversation states in real-time. If a message hung in limbo, the Watcher flagged it.
+This project taught me about **observability**. You can't fix what you can't see.
+The Watcher gave us eyes on the system's health.

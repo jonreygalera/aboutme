@@ -1,23 +1,18 @@
-## 📅 2019 — Thesis / Research Project (Team Lead)
+# 2019: Leading Without Authority
 
-**Project:** iTEaCH: A Mobile Scanner for Shape and Color for Kids Learning
+## iTEaCH: Mobile Scanner for Kids
 
-For my thesis, I led a small team to develop **iTEaCH**, an Android application designed to help children learn **shapes and colors** through mobile scanning and computer vision.
+**Role:** Team Lead (Thesis)  
+**Tech Stack:** Java, OpenCV (Android)
 
-**What I Did:**
+### The Story
 
-- Led the team, coordinated tasks, and ensured project milestones were met
-- Designed and implemented the app’s core functionality using **Java** and **OpenCV**
-- Applied computer vision techniques to recognize shapes and colors in real-time
-- Focused on usability for teachers and children, ensuring the app was intuitive
-- Deployed the app to teachers’ phones for testing, though it was not officially released on Google Play
-- Learned valuable lessons in project management, team coordination, and delivering a working prototype
+"Build an app that uses camera vision to teach kids shapes and colors."
+Sounds cute, right? **It was a nightmare.**
 
-**Tech Stack:**
+Getting OpenCV to run smoothly on 2019-era mid-range Android phones was a performance battle. We dealt with lag, crash loops, and lighting issues.
 
-- Java
-- OpenCV
+### The Leadership Lesson
 
-**Key Takeaway:**
-
-> Leading this project taught me how to balance coding, team leadership, and user-focused design. Even though the app wasn’t fully released, seeing it installed and used by teachers made the effort tangible and meaningful.
+As the team lead, my biggest challenge wasn't the code—it was the **team**. Keeping everyone motivated when things weren't working, unblocking stuck members, and cutting features to meet the deadline.
+We didn't launch on the Play Store, but seeing a teacher successfully use it in a demo was a massive win.

@@ -1,18 +1,17 @@
-## 📅 2021 — Personal Project
+# 2021: Queueing Theory in Practice
 
-**Project:** ar-queue-task (NPM Package)
+## ar-queue-task (npm package)
 
-Out of curiosity and a desire to expand my JavaScript skills, I created my **second NPM package** called **ar-queue-task**. This package was an experiment in implementing a **queue system**, allowing tasks to be managed in a controlled, sequential manner.  
+**Project Type:** Personal Experiment  
+**Tech Stack:** JavaScript, npm
 
-**What I Did:**
-- Explored how to create, structure, and publish an NPM package  
-- Implemented a simple queue system to manage tasks in JavaScript  
-- Tested and published the package ([link here](https://www.npmjs.com/package/ar-queue-task))  
-- Learned about task queuing, package versioning, and distribution  
+### The Curiosity
 
-**Tech Stack:**
-- JavaScript  
-- npm  
+I was fascinated by how JavaScript handles async tasks. The Event Loop is cool, but what if you need more control? What if you need to limit concurrency?
 
-**Key Takeaway:**
-> This project helped me better understand task queuing and reinforced the fundamentals of building and publishing reusable code in the JavaScript ecosystem.
+### The Experiment
+
+I built a lightweight queue system.
+It wasn't about building a production-grade library (there are plenty of those). It was about **understanding the mechanics**.
+Writing this package forced me to deeply understand Promises, callbacks, and race conditions.
+It was "learning by doing" in its purest form.

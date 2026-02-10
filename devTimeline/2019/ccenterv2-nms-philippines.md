@@ -1,22 +1,19 @@
-## 📅 2019 — Developer at NMS Philippines
+# 2019: Finding My Voice
 
-**Project:** CCenterv2
+## CCenterv2
 
-At **NMS Philippines**, I joined the development team for **CCenterv2**, where I not only contributed code but also actively shared ideas and participated in **key system design decisions**. This experience helped me understand how collaborative development works in a professional setting.
+**Role:** Developer  
+**Tech Stack:** Laravel, MySQL, Angular
 
-**What I Did:**
+### The Story
 
-- Developed features and modules using **Laravel/PHP**, **MySQL**, and **Angular**
-- Participated in system architecture discussions and decision-making
-- Contributed ideas that improved workflows and system design
-- Collaborated closely with senior developers, learning best practices in team development
+Fresh out of training, I joined the **CCenterv2** team. Usually, juniors are told what to do. But here, I found my voice.
 
-**Tech Stack:**
+I didn't just pick up tickets; I started asking "Why?"
 
-- Laravel / PHP
-- MySQL
-- Angular
+- "Why are we structuring the database this way?"
+- "Could this angular component be reusable?"
 
-**Key Takeaway:**
+### The Impact
 
-> Working on CCenterv2 taught me the value of collaboration and communication in software development, showing me how sharing ideas and understanding system-wide impact leads to better products.
+I realized that **soft skills are technical skills**. Being able to articulate _why_ a certain approach is better is just as important as writing the code itself. My inputs started shaping the system's architecture, and I transitioned from a "coder" to a "collaborator."

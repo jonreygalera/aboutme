@@ -1,19 +1,20 @@
-## 📅 2019 — Junior Developer at NMS Philippines
+# 2019: Learning from the Past
 
-**Project:** Legacy HRapps
+## Legacy HRapps
 
-At **NMS Philippines**, I contributed to **Legacy HRapps** as a **junior developer**, where I was responsible for both **maintaining the existing system** and **building new features**. Under the guidance of senior developers, I gained hands-on experience in making decisions on **what to build and how to build it**.  
+**Role:** Junior Developer  
+**Tech Stack:** CodeIgniter, MySQL, jQuery
 
-**What I Did:**
-- Developed new features to improve the HRapps system using **CodeIgniter, MySQL, and jQuery**  
-- Maintained and debugged legacy code to ensure stability and performance  
-- Made development decisions with guidance, learning best practices for sustainable code  
-- Collaborated with senior developers to review and refine solutions  
+### The Story
 
-**Tech Stack:**
-- CodeIgniter  
-- MySQL  
-- jQuery  
+"Legacy code" often gets a bad rap. But on **HRapps**, it was my textbook.
+I spent months reading code written by developers who came before me.
 
-**Key Takeaway:**
-> Working on Legacy HRapps helped me grow as a junior developer by balancing guidance with autonomy, learning how to maintain existing systems while confidently contributing new features.
+- Why did they use this pattern?
+- How did they handle session management in CodeIgniter?
+
+### The Takeaway
+
+I learned that code is read 10x more than it is written.
+Maintaining this system taught me empathy for the next developer. Now, when I write code, I ask myself: _"Will the person reading this in 2 years want to find me and yell at me?"_
+If the answer is yes, I refactor.

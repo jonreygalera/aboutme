@@ -1,19 +1,18 @@
-## 📅 2020 — Support Lead Developer
+# 2020: If It's Repetitive, Automate It
 
-**Project:** Dailysteam
+## Dailysteam Automation
 
-I worked as **Support Lead Developer** on **Dailysteam**, an automation system designed to send scheduled bot replies, improving workflow efficiency and reliability for messaging operations.  
+**Role:** Support Lead Developer  
+**Tech Stack:** Node.js, Express.js, Redis
 
-**What I Did:**
-- Developed a backend bridge to automate bot replies at specific scheduled times  
-- Implemented reliable scheduling and timing mechanisms to ensure accurate message delivery  
-- Ensured system reliability and performance using **Node.js**, **Express.js**, and **Redis**  
-- Supported ongoing maintenance and enhancements for automation workflows  
+### The Challenge
 
-**Tech Stack:**
-- Node.js  
-- Express.js  
-- Redis  
+Humans are bad at repetitive tasks. We forget. We sleep. We make typos.
+Our team needed bot replies to be sent at specific times, every single day. Doing this manually was a recipe for disaster.
 
-**Key Takeaway:**
-> Working on Dailysteam taught me how to build reliable automation systems, handle scheduled tasks effectively, and ensure consistent performance in messaging workflows.
+### The Solution
+
+I built a bridge—an automation layer that never sleeps.
+Using **Redis** for scheduling, I ensured that messages went out exactly when they were supposed to.
+It turned a daily headache into a "set it and forget it" system.
+Reliability isn't flashy, but it's what keeps businesses running.

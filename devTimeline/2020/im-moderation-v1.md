@@ -1,18 +1,16 @@
-## 📅 2020 — Developer
+# 2020: The Content Police
 
-**Project:** IM Moderation v1
+## IM Moderation v1
 
-During 2020, I worked on **IM Moderation v1**, an internal tool built to **monitor and filter content** on our messaging platform. The system had to handle multiple types of content—**text, images, and videos**—and ensure that everything complied with our quality standards.
+**Role:** Developer  
+**Tech Stack:** Kohana (PHP)
 
-**My Contributions:**
+### The Responsibility
 
-- Added moderation features to handle different content types reliably
-- Improved the system’s performance and stability for consistent filtering
-- Worked closely with the team to ensure the tool met internal compliance requirements
+Moderation isn't just about deleting spam. It's about safety.
+We were filtering text, images, and videos. The system had to be fast (real-time chat) and accurate.
 
-**Tech Stack:** 
-- Kohana
+### The Tech
 
-**What I Learned:**
-
-> This project gave me hands-on experience building systems that manage diverse content. It taught me how to think about **reliability, real-world workflow challenges**, and how even small improvements can make a big difference in content moderation.
+I added support for diverse content types. This taught me about **handling binary data**, **mime types**, and the sheer volume of data a messaging platform generates.
+Every optimization I made here directly impacted thousands of conversations.

@@ -1,20 +1,23 @@
-## 📅 2019 — Developer at NMS Philippines
+# 2019: The Deep End (Legacy vs. New)
 
-**Project:** Flai
+## Flai
 
-At **NMS Philippines**, I contributed to the development and maintenance of **Flai**, a system that required handling both **new advanced features** and existing **legacy code**. I had the opportunity to **share ideas**, **participate in system decisions**, and tackle technically challenging tasks.  
+**Role:** Developer  
+**Tech Stack:** Kohana, PHP, MySQL, jQuery
 
-**What I Did:**
-- Built advanced features like an **examination system** integrated with other APIs  
-- Developed a **bulk email system**, learning limitations and best practices for large-scale email sending  
-- Maintained and improved the **legacy system**, understanding and refactoring existing code  
-- Participated in discussions on system architecture and feature planning  
-- Applied problem-solving to both new development and maintenance tasks  
+### The Story
 
-**Tech Stack:**
-- Kohana / PHP  
-- MySQL  
-- jQuery  
+**Flai** was my crash course in the reality of software development: **Maintenance**.
+I had to dig through legacy code (Kohana frameork!) to keep the system alive while simultaneously building advanced new features.
 
-**Key Takeaway:**
-> Working on Flai taught me how to balance new feature development with legacy system maintenance, and how understanding existing code is just as valuable as writing new code.
+### The "Aha!" Moment
+
+I was tasked with building a **bulk email system**. I thought, _"Easy, loop through users and send."_
+**Wrong.**
+I hit rate limits. servers stalled. I learned the hard way about:
+
+1.  **Queue implementation** (don't block the main thread!).
+2.  **Throttling** (respect the API limits).
+3.  **Error Handling** (what happens when 1 out of 10,000 fails?).
+
+This project taught me that "it works" isn't enough. It has to work _at scale_.

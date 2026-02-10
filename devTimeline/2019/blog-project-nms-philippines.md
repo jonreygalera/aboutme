@@ -1,21 +1,16 @@
-## 📅 2019 — Training / Work Project at NMS Philippines
+# 2019: The Proving Ground
 
-**Project:** Blog Post System
+## Blog Post System (Training Project)
 
-During training at **NMS Philippines**, I developed a blog post system as a hands-on project to apply and showcase my skills. This project not only improved my coding abilities but also demonstrated my understanding of software design techniques and patterns, which helped me secure my first development role.
+**Role:** Trainee  
+**Tech Stack:** Laravel, PHP, MySQL
 
-**What I Did:**
+### The Story
 
-- Built a functional blog post system using **Laravel/PHP** and **MySQL**
-- Implemented clean code, design patterns, and scalable architecture
-- Applied hands-on techniques from training sessions to a real project
-- Showcased the project to senior developers, proving my capability
+This wasn't just a "training exercise"—it was my interview. I had to prove to NMS Philippines that I could write clean, scalable code.
 
-**Tech Stack:**
+I didn't just build a CRUD app; I over-engineered it (in a good way). I implemented design patterns I'd only read about, ensuring the architecture could handle "theoretical" scale.
 
-- Laravel / PHP
-- MySQL
+### The Result
 
-**Key Takeaway:**
-
-> This project taught me how to apply learned techniques in a practical setting, and it became a key factor in landing my first development job.
+This project was my ticket in. It showed the senior developers that I didn't just know _how_ to code, but _why_ to structure it a certain way. It got me the job.

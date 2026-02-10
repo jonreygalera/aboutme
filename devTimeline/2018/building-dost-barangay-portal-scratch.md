@@ -1,25 +1,19 @@
-## 📅 2018 — Internship (DOST Urdaneta)
+# 2018: The "It Works on My Machine" Era
 
-**Project:** DOST: Barangay Portal
+## DOST: Barangay Portal
 
-During my internship at **DOST Urdaneta**, I embarked on my first real coding adventure as a **co-lead developer**. Together with the team, we built **DOST: Barangay Portal** entirely **from scratch**—no legacy data, no pre-existing system—just ideas, determination, and plenty of coffee ☕.
+**Role:** Co-Lead Developer (Internship)  
+**Tech Stack:** PHP, MySQL, Bootstrap, Google Maps API
 
-**What I Did:**
+### The Story
 
-- Co-led the development, designing the system architecture from the ground up
-- Built dynamic features and CRUD operations using **PHP & MySQL**
-- Created responsive interfaces with **Bootstrap**
-- Added interactivity and mapped barangay locations using **JavaScript & Google Maps**
-- Collaborated closely with stakeholders to clarify requirements and refine features in real-time
+This was my first real taste of software engineering. No tutorials, no hand-holding—just a problem statement: _"We need to digitize barangay records."_
 
-**Tech Stack:**
+We built the entire system **from scratch**.
+I vividly remember the feeling of uploading the code to a live server for the first time. It wasn't just running on `localhost` anymore; real people at DOST Urdaneta were going to click these buttons.
 
-- PHP
-- MySQL
-- Bootstrap
-- JavaScript
-- Google Maps API
+### What I Learned
 
-**Key Takeaway:**
-
-> Leading a project from zero to a fully working system taught me the value of clear architecture, teamwork, and hands-on problem solving in real-world software development.
+- **Greenfield Development:** Starting with a blank text editor is both terrifying and liberating.
+- **Real-time Feedback:** Sitting next to the users (barangay officials) taught me that what makes sense to a developer often confuses a user.
+- **The "Full Stack" Experience:** I had to be the DBA, the backend dev, the frontend designer, and the deployment engineer all at once.
