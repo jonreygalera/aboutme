@@ -7,13 +7,12 @@
 
 ### The Story
 
-This was my first real taste of software engineering. No tutorials, no hand-holding—just a problem statement: _"We need to digitize barangay records."_
+This was my first real taste of software engineering. No tutorials, no hand-holding—just a problem statement: _"We need to digitize barangay records."_  
 
-We built the entire system **from scratch**.
-I vividly remember the feeling of uploading the code to a live server for the first time. It wasn't just running on `localhost` anymore; real people at DOST Urdaneta were going to click these buttons.
+We built the system **from scratch** over two months and delivered it locally to our supervisor for review. Although it wasn’t deployed live, the project gave me invaluable hands-on experience in planning, coding, and testing a complete application.
 
 ### What I Learned
 
-- **Greenfield Development:** Starting with a blank text editor is both terrifying and liberating.
-- **Real-time Feedback:** Sitting next to the users (barangay officials) taught me that what makes sense to a developer often confuses a user.
-- **The "Full Stack" Experience:** I had to be the DBA, the backend dev, the frontend designer, and the deployment engineer all at once.
+- **Greenfield Development:** Starting with a blank editor is both terrifying and liberating.  
+- **User Perspective Matters:** Even though it ran only locally, thinking about how barangay officials would use it shaped my design decisions.  
+- **Full-Stack Experience:** I acted as the DBA, backend developer, frontend designer, and tester—all in one.
