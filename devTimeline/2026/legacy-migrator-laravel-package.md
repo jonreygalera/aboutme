@@ -28,7 +28,6 @@ Instead of writing one-off scripts for every new system, we now have a structure
 
 ### Private First, Built to Last
 
-I developed this package primarily for **private use within the company**.  
 The idea had been in my mind for a long time, but this was the right time to finally build it properly.
 
 I made sure it was structured, documented, and maintainable — so that **if I ever leave the company, someone can continue maintaining it smoothly**.
