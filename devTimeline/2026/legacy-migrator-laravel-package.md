@@ -33,8 +33,6 @@ The idea had been in my mind for a long time, but this was the right time to fin
 
 I made sure it was structured, documented, and maintainable — so that **if I ever leave the company, someone can continue maintaining it smoothly**.
 
-Later on, I plan to **fork it into a personal open-source version**, allowing other developers outside the company to leverage the same migration workflow improvements.
-
 You can visit the original version here:  
 https://packagist.org/packages/mreycode/legacy-migrator
 
