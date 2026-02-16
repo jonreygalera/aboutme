@@ -1,45 +1,61 @@
-# 2026: Legacy Migrator — Making Painful Migrations Simple
+# 2026: Laravel DB Migrator — Built from Repeated Migrations
 
-## Legacy Migrator (Laravel Package)
+## Laravel DB Migrator (Open Source Package)
 
 **Role:** Creator & Lead Developer  
 **Tech Stack:** Laravel, MySQL, Queues
 
-### The Problem
+### The Spark
 
-Data migration is a **pain in the ass**.  
-It became a recurring obstacle whenever we worked with legacy systems.  
-Manual scripts were slow, error-prone, and difficult to resume if something failed midway.
+We migrated systems so many times.
 
-Every migration felt risky — one mistake could mean inconsistent data, duplicated records, or hours of rechecking everything manually.
+Every new system meant:
 
-### The Solution
+- Writing custom migration scripts
+- Mapping old tables to new schemas
+- Fixing broken or inconsistent records
+- Praying nothing fails halfway
 
-I decided to **build a Laravel package** to solve the pain once and for all.
+After repeating this cycle again and again, a simple idea came to me:
 
-**Legacy Migrator features:**
+“What if I just build a reusable Laravel DB migrator that we can use for future projects?”
 
-- **Incremental and resumable migrations**
-- **Robust queue handling** for large datasets
-- Handles **legacy-to-new system transformations** reliably
-- Makes it easy to **retry or resume** failed migrations without losing progress
+Instead of suffering every time, why not build the tool once?
 
-Instead of writing one-off scripts for every new system, we now have a structured and reusable migration workflow.
+### The Build
 
-### Private First, Built to Last
+So during my free time, I started building it.
 
-The idea had been in my mind for a long time, but this was the right time to finally build it properly.
+No big announcement.  
+No perfect planning.  
+Just solving a real problem we kept encountering.
 
-I made sure it was structured, documented, and maintainable — so that **if I ever leave the company, someone can continue maintaining it smoothly**.
+And yes…  
+During early development, there were no proper tests — high priority mode activated 😅
 
-<!-- You can visit the original version here:
-https://packagist.org/packages/mreycode/legacy-migrator -->
+The goal was straightforward:
 
-### The Outcome
+- Make migrations **incremental and resumable**
+- Use **queues for handling large datasets**
+- Support **legacy-to-new schema transformations**
+- Allow safe retries without restarting everything
 
-Migrating legacy databases became systematic and predictable.  
-No more messy one-off scripts. No more “oops, the migration failed halfway.”
+### Open Source
 
-Sometimes the best tools come from **solving your own headaches**, and Legacy Migrator is exactly that.
+What started as a practical internal solution is now publicly available.
 
-It’s now part of our workflow whenever we build new systems and need to bring old data along for the ride.
+You can check it here:  
+https://packagist.org/packages/mreycode/laravel-db-migrator
+
+Now, other developers facing the same migration headaches can use, extend, or improve it.
+
+### Why It Matters
+
+Instead of rewriting migration logic every time a new system is built,  
+we now have a reusable foundation.
+
+Sometimes innovation doesn’t come from brilliance.  
+Sometimes it comes from being tired of repeating the same pain.
+
+And this package?  
+It started exactly like that.
