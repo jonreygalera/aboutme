@@ -15,13 +15,13 @@ but a script-based iframe embed system that can be deployed to any website using
 Just drop the script into any website, and the chatbot appears automatically.  
 It was **implemented on this website**: [https://newmediaservices.com.au/](https://newmediaservices.com.au/)
 
+This project was **inspired by my AI portfolio** ([mrey-ai.vercel.app](https://mrey-ai.vercel.app))  
+which I had integrated into my personal website ([jonreygalera.vercel.app](https://jonreygalera.vercel.app)) — I wanted to make a system that could **scale across multiple sites**, not just my own.
+
 ### What It Does
 
 - Dynamically injects a floating chat button  
 - Loads the chatbot using a DOM-created iframe  
-- Supports parameters such as:
-  - `agentName`
-  - `cname` (custom chatbot name for UI)
 - Securely passes the parent domain to the backend
 - Smooth open/close toggle animations  
 - Fully responsive (mobile full-screen mode)  
